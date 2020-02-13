@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0399a691-ca29-4a11-a2a7-7448868c70a8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../SimpleTest">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample001" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample001" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample001" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sample001" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XS1BsDFzcx3wGLngP72e8gMxLB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SampleControllerTest">
+    <configuration name="SampleControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.SampleControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SampleControllerTest.index" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.SampleControllerTest.index&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="sample001 [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SampleControllerTest" />
+        <item itemvalue="Gradle.SampleControllerTest.index" />
+        <item itemvalue="Gradle.sample001 [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0399a691-ca29-4a11-a2a7-7448868c70a8" name="Default Changelist" comment="" />
+      <created>1581024548815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581024548815</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="214" width="820" height="677" key="#Project_Structure" timestamp="1581567080324">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="820" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1581567080324" />
+    <state x="630" y="341" width="726" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581184435651">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="630" y="341" width="726" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1581184435651" />
+    <state x="747" y="310" key="FileChooserDialogImpl" timestamp="1581570276297">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="747" y="310" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1581570276297" />
+    <state width="1807" height="295" key="GridCell.Tab.0.bottom" timestamp="1581588557360">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="295" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581588557360" />
+    <state width="2447" height="278" key="GridCell.Tab.0.bottom/67.27.2493.1223@67.27.2493.1223" timestamp="1581033993968" />
+    <state width="2447" height="278" key="GridCell.Tab.0.bottom/67.27.2493.1413@67.27.2493.1413" timestamp="1581033427294" />
+    <state width="1807" height="295" key="GridCell.Tab.0.center" timestamp="1581588557359">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="295" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581588557359" />
+    <state width="2447" height="278" key="GridCell.Tab.0.center/67.27.2493.1223@67.27.2493.1223" timestamp="1581033993954" />
+    <state width="2447" height="278" key="GridCell.Tab.0.center/67.27.2493.1413@67.27.2493.1413" timestamp="1581033427293" />
+    <state width="1807" height="295" key="GridCell.Tab.0.left" timestamp="1581588557359">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="295" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581588557359" />
+    <state width="2447" height="278" key="GridCell.Tab.0.left/67.27.2493.1223@67.27.2493.1223" timestamp="1581033993951" />
+    <state width="2447" height="278" key="GridCell.Tab.0.left/67.27.2493.1413@67.27.2493.1413" timestamp="1581033427285" />
+    <state width="1807" height="295" key="GridCell.Tab.0.right" timestamp="1581588557360">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="295" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581588557360" />
+    <state width="2447" height="278" key="GridCell.Tab.0.right/67.27.2493.1223@67.27.2493.1223" timestamp="1581033993962" />
+    <state width="2447" height="278" key="GridCell.Tab.0.right/67.27.2493.1413@67.27.2493.1413" timestamp="1581033427294" />
+    <state x="577" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581556141082">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="577" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581556141082" />
+    <state x="655" y="235" width="667" height="635" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581197380247">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="655" y="235" width="667" height="635" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1581197380247" />
+    <state x="611" y="175" width="488" height="625" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581579515626">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="611" y="175" width="488" height="625" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581579515626" />
+    <state x="229" y="144" width="1518" height="817" key="new project wizard" timestamp="1581567846452">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="229" y="144" width="1518" height="817" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1581567846452" />
+    <state x="657" y="253" key="run.anything.popup" timestamp="1581032802728">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1581032802728" />
+    <state x="718" y="465" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1581577409065">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="718" y="465" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581577409065" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/SampleControllerTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

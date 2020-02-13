@@ -1,0 +1,62 @@
+
+plugins {
+	id 'org.springframework.boot' version '2.2.4.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+	id 'groovy'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	developmentOnly
+	runtimeClasspath {
+		extendsFrom developmentOnly
+	}
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+  	jcenter()
+}
+
+ext {
+	set('springBootAdminVersion', "2.2.1")
+}
+
+dependencies {
+
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	implementation 'mysql:mysql-connector-java'
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+	compile("org.springframework.boot:spring-boot-starter-web") {
+		// exclude embedded tomcat to use Jetty
+		exclude module: "spring-boot-starter-tomcat"
+	}
+	compile "org.springframework.boot:spring-boot-starter-jdbc"
+	//compile "org.springframework.boot:spring-boot-starter-security"
+	compile "org.springframework.boot:spring-boot-starter-jetty"
+	//compile "org.springframework.session:spring-session-jdbc" // セッション格納先にDBを使う場合
+        testImplementation "org.junit.jupiter:junit-jupiter:5.5.2"
+    testCompile "org.junit.jupiter:junit-jupiter-api:5.0.0-M3"
+    testRuntime "org.junit.jupiter:junit-jupiter-engine:5.0.0-M3"
+	implementation 'org.testng:testng:6.9.6'
+	testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "de.codecentric:spring-boot-admin-dependencies:${springBootAdminVersion}"
+	}
+}
+
+test {
+	useJUnitPlatform()
+}

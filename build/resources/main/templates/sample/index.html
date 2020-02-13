@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>top page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h2 th:text="${name}"></h2>
+<p th:text="${get}" />
+<p th:text="${post}" />
+
+<table class="list">
+    <tr>
+        <th>ID</th>
+        <th>名前</th>
+    </tr>
+    <tr th:each="list:${list}">
+        <td th:text="${list.id}"></td>
+        <td th:text="${list.name}"></td>
+    </tr>
+</table>
+
+<form method="post" name="create" action="/sample" accept-charset="UTF8">
+    <input type="text" name="name"/>
+    <input type="submit" value="NEW" />
+</form>
+
+<form method="post" action="/sample/:id">
+    <input type="hidden" name="_method" value="put">
+    <input type="text" name="name">
+    <input type="submit" value="EDIT">
+</form>
+
+<a href="javascript:void(0);" onclick="destory_func();">削除</a>
+
+</body>
+</html>
